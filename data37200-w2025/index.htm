@@ -1,0 +1,232 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>DATA 37200: Learning, Decisions, and Limits | UChicago</title>
+
+<link href="./theme/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+<link href="./theme/style.css" rel="stylesheet" type="text/css" media="screen">
+<style>
+.hw { color: red }		
+.hw a { color: red }		
+</style>
+</head>
+<body bgcolor="#6D7B8D" align="justify">
+<div id="container">
+<div id="content">
+<h2 align="center">DATA 37200: Learning, Decisions, and Limits  (Winter 2025) </h2> <hr>
+
+<h3>Basic Information</h3> 
+
+ 
+
+
+	<!-- <b>Prerequisites:</b> The pre-requisitive for CIS 322 is CIS 212 or equivalent. You may take CIS 322 concurrently with CIS 314 or CIS 313. It is preferable to take CIS 322 before CIS 330 and CIS 415, although it is not a pre-requisite. Students at the 400 level may take CIS 322, but you should be aware that the course is designed primarily for students at the 300 level.<br/><br/> -->
+
+	<b>Class Location:</b>  TBD  <br>
+	<b>Class Time:</b> TBD <br>
+
+	<b>Instructor:</b> <a href="https://frkoehle.github.io/">Frederic Koehler</a> and  <a href="http://www.haifeng-xu.com/">Haifeng Xu</a><br>
+	<ul>
+		<li> Office:  Searle 203 (Frederic) and Crerar 260 (Haifeng) </li>
+		<li> TBD  </li>
+
+	</ul>
+	<b>TA</b>: TBD  <br/>
+	<ul>
+	 <li> Email: TBD  </li>
+	 <li> Office Hours: TBD </li>  
+	</ul>
+
+
+	<b>Course Material:</b> There will not be any official textbook, but the slides and links to reading materials will be posted on the course schedule <i>after each lecture</i>.
+
+<br><br>
+
+<b>Learning Objectives:</b> (1) Understand basic toolkits for online learning and online decision making, as a complement to offline learning paradigm; (2)
+Prepare students to understand state-of-the-art RL algorithms, such as RLHF and AlphaGo training. 
+  
+ 
+
+
+<br><br>
+	
+  <h3>Announcements</h3>
+	<ul>
+		<li> Dec 1: Course website is up! </li>
+	</ul>
+
+ 
+
+<br>
+
+  <h3>Course Description</h3>
+<p>This is a graduate course on theory of machine learning. While ML theory has multiple branches in general, this course is designed to cover basics of online learning, along with basics of reinforcement learning. It aims to establish the foundation for students who are interested in conducting research related to online decision making, learning, and optimization. The course will introduce formal formulations for fundamental problems/models in this space, describe basic algorithmic ideas for solving these models, rigorously discuss performances of these algorithms as well as these problems’ fundamental limits (e.g., minmax/lower bounds). En route, we will develop necessary toolkits for algorithm development and lower bound proofs. 
+</p>
+
+
+<p>Topics covered in this course, and tentative syllabus (up to small changes): </p>
+
+	<ul>
+		<li> (week 1) Concentration bound, and UCB</li>
+		<li> (week 2) Information-theoretic lower bound for KL and distribution testing</li>
+		<li> (week 3-4) Elliptical potential lemma, and linear contextual bandits</li>
+		<li> (week 5) Online learning, online gradient descent, reduction from contextual bandit to online learning </li>
+		<li> (week 6) MDP, dynamic programming </li>
+		<li> (week 6) Policy iteration and value iteration </li>
+		<li> (week 7) Reinforcement learning and optimism principle </li>
+		<li> (week 8) multi-agent RL, equilibria, counterfactual regret minimization, self-play </li>
+		<li> (week 9) Sampled recent learning paradigms: RLHF, etc.  </li>
+
+
+ </ul> 
+
+This is primarily a theory course, and lecture-based. That said, we will focus primarily on proofs over coding. 
+Prerequisites include linear algebra (at the level of CMSC 25300 or its equivalent), algorithms (CMSC 27200 or its equivalent) and probability (STATS 25100 or its equivalent). If not sure, consult with the instructor. Note that no background on learning theory is required.  
+
+
+<br>
+
+
+
+  <h3>Lectures and Readings</h3>
+	<table class="tg">
+	<tbody>
+<tr>
+	<th>Lec No.</th>
+	<th>Lectures</th>
+	<th>Readings</th>
+  </tr>
+
+
+<tr>
+  <td>1 (Jan)</td>
+  <td>Introduction  </td>
+  <td>  </td>
+  </tr>
+  
+ <!-- 
+<tr>
+  <td>2 (Jan 4: II)</td>
+  <td>Basics of LPs [<a href="slides/lec2-LP.pdf">slides</a>] </td>
+  <td> Chapter 2.1, 2.2, 4.3 of <a href="https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf">Convex Optimization</a>  by Boyd and Vandenberghe </td>
+  </tr>
+
+-->
+
+  </tbody></table>
+
+
+<br>
+
+
+
+  <h3>Homework</h3>
+  <table class="tg">
+  <tbody><tr>
+    <th>Due date</th>
+    <th>Homework</th>
+    <th>Note</th>
+  </tr>
+
+ <!-- 
+
+<tr>
+  <td>01/20</td>
+  <td><a href="hw/hw1.pdf">Homework 1</a></td>
+    <td> Here is a <a href="hw/hw-template.zip">HW solution template</a> in case you need one</td>
+</tr>
+ 
+ --> 
+
+  </tbody></table>
+
+<br>
+
+
+
+	<h3>Requirements and Grading</h3>
+
+Grades consist of three components: (1) 3~4 proof-based  assignments (30% ); (2) three in-class 30-mins quizzes (25%), with 30 mins each; (3) course project (45%).  Notably, the quiz is expected to not be difficult, but rather some simple tests to see whether you are indeed on top of the key materials. </p>
+
+The project could be one of the following three categories: (A) Reproduce the proofs of existing paper(s); (B) Novel research and results; (C) something between A and B (we would encourage most of you to start in this category, which have some novelty yet is backed up by reproducing proofs)
+</p>
+
+There is no midterm or final for the course. 
+</p>
+
+ 
+<b>Late Homework Policy </b>: Each student is allowed one late homework for at most two days from the due date. You may choose whichever homework to use this chance (or not use it). No additional late homework will be accepted.
+</p>  
+
+<br>
+<br>
+
+
+	<!-- <h3>Projects</h3>
+	Some projects are more challenging than others. Use Piazza to request additional lab help hours in a week when more help is needed.
+	<table class="tg">
+	<tr>
+	<th>Due date</th>
+	<th>Project</th>
+	<th>Description</th>
+</tr>
+
+<tr>
+
+  <td>01/24</td>
+  <td><a href="./projects/project1.html">Project 1</a></td>
+    <td>Search</td>
+    </tr>
+
+    <tr><tr>
+  <td>02/18</td>
+  <td><a href="./projects/project2.html">Project 2</a></td>
+    <td>Multi-Agent Search </td>
+    </tr>
+
+    <tr><tr>
+  <td>03/11</td>
+  <td><a href="./projects/project3.html">Project 3</a></td>
+    <td>Reinforcement Learning</td>
+  </tr>
+
+    <tr><tr>
+  <td>03/18</td>
+  <td><a href="./projects/project4.html">Project 4</a></td>
+    <td>Ghostbusters (Optional) </td>
+  </tr>
+
+  </table>
+  
+  <h3>Homework</h3>
+  <table class="tg">
+  <tr>
+    <th>Due date</th>
+    <th>Homework</th>
+    <th>Description</th>
+  </tr>
+
+<tr>
+  <td>01/29</td>
+  <td><a href="./homework/Homework1.pdf">Homework 1</a></td>
+    <td>Search</td>
+</tr>
+
+<tr>
+  <td>02/16</td>
+  <td><a href="./homework/Homework2.pdf">Homework 2</a></td>
+    <td>CSPs and Games</td>
+</tr>
+
+<tr>
+  <td>03/14</td>
+  <td><a href="./homework/Homework3.pdf">Homework 3</a></td>
+    <td>MDPs and RL and Bayes Nets</td>
+</tr>
+  </table> -->
+ 
+
+<h3> Students with disabilities or learning needs </h3>
+We thrive to create a learning experience that is as accessible as possible. If you anticipate any issues related to the format, materials, or requirements of this course, please meet with me outside of class so we can explore potential options. Students with disabilities may also wish to work with the UChicago Student Disability Services to discuss a range of options to removing barriers in this course, including official accommodations. Please visit their website for information on this process and to apply for services online: <a href="https://disabilities.uchicago.edu/">disabilities.uchicago.edu</a>. If you have already been approved for accommodations through SDS, please send me your accommodation letter, and meet with me if needed, so we can develop an implementation plan together.
+	</div>
+	
+	
+</div></body></html>
