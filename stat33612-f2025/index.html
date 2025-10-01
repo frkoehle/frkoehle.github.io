@@ -1,17 +1,117 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAT 33612: Randomness and High-Dimensional Optimization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p,li {
+            color: #666;
+        }
+        .former-lecture-list {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+	        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        ul li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
 <body>
-	<h1>
-	Course title: Randomness and High-Dimensional Optimization
-	</h1>
-	<p>
-Brief Description:
-This is a class on the precise analysis of high-dimensional optimization problems arising
+    <div class="container">
+        <header>
+            <h1>STAT 33612: Randomness and High-Dimensional Optimization</h1>
+	    <p>Instructor: <a href="http://frkoehle.github.io">Frederic Koehler</a></p>
+        </header>
+
+
+        <section class="course-info">
+            <h2>Class Schedule & Location</h2>
+            <p>Tuesday and Thursday, 12:30 PM - 1:50 PM</p>
+            <p>Location: Jones 303</p>
+        </section>
+        
+        <section class="course-description">
+            <h2>Course Description</h2>
+	    <p>This is a class on the precise analysis of high-dimensional optimization problems arising
 from statistics, learning, and other areas using probabilistic tools. A main conceptual focus is the relationship between computational/constructive
 vs statistical/existential tractability. Techniques related to statistical physics (e.g. AMP), combinatorial and nonconvex optimization,
-and gaussian processes will be covered.
-	</p>
-	<p>
-	Prerequisites: mathematical maturity, foundational knowledge of probability (e.g. martingales). Additional background from e.g. optimization, algorithms, complexity, high-dimensional statistics helpful but not strictly required.
-	</p>
+and gaussian processes will be covered.</p>
+        </section>
+
+        <section class="lecture-list">
+            <h2>Lecture Schedule</h2>
+            <ul>
+                <li>
+			<strong>Tuesday, Sept. 30</strong> - Intro and Overview
+			<div>
+				Related Reference: Mezard-Montanari book 
+				<br />
+				<!-- Scribe: <a href="lecture1.pdf">TODO</a> -->
+			</div>
+		</li>
+		<li>
+			<strong>Thursday, Oct. 2</strong> - Intro to Gaussian Processes, Random Energy Model
+			<div>
+				Scribe: <a href="lecture1.pdf">TODO</a>
+			</div>
+		</li>
+
+        <!-- Add more lectures here with the format:
+        <li><strong>Date</strong> - Topic</li>
+        -->
+            </ul>
+    </section>
+
+
+	<section>
+	    <h2>Scribe Instructions</h2>
+	    <p>Every student enrolled for credit should scribe a class. Scribe notes should aim to be high quality, mathematically correct, and intelligible to someone who missed the class. They are due within 9 days of when the class occurred. I might ask for edits to the scribe notes if I observe areas for improvement. They will be posted on the course webpage. </p>
+	    <p>Scribing template: <a href="scribetemplate.tex">scribetemplate.tex</a> Please send tex and pdf when completed with scribing.</p>
+	</section>
+
+	<section>
+	    <h2>Some useful references and notes</h2>
+	    These are some sample course notes,books,etc which cover many interesting topics. They have some overlapping content with this course and are useful references.
+	    <ul>
+	    <li><a href="https://web.stanford.edu/~montanar/RESEARCH/book.html">Information, Physics, and Computation (Mezard and Montanari)</a></li>
+	    <li><a href="https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html">High-Dimensional Probability (Vershynin)</a></li>
+	    <li><a href="https://courses.cit.cornell.edu/stsci6940/">Course Notes: Topics in high-dimensional inference (El Alaoui)</a></li>
+	    <li><a href="https://www.stat.berkeley.edu/~songmei/Teaching/STAT260_Spring2021/schedule.html">Course Notes: Mean-Field Asymptotics in Statistical Learning (Mei)</a></li>
+	    <li><a href="https://web.stanford.edu/~montanar/RESEARCH/book.html">Course Notes: Computational and Statistical Trade-offs (Zadik)</a></li>
+	    <li><a href="http://www.kunisky.com/teaching/2023spring-modernprob/">Course Notes: Modern Probability for Theoretical Computer Science (Kunisky)</a></li>
+	    <li><a href="https://sitanchen.com/cs224/f23/index.html">Course Notes: Algorithms for Data Science (S. Chen)</a></li>
+		<li>Many other references... (try a web/AI search, or look at links from other pages)</li>
+	    </ul>
+	</section>
+
+	<section>
+	    <h2>Other Logistics</h2>
+	    <p>There will be a course project with a written report for all students enrolled for a grade. More information soon.</p>
+	    <p>If you are auditing the class, please email me to ensure you receive relevant announcements.</p>
+	</section>
+	    
+    </div>
 </body>
-</html>
+
